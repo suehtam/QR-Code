@@ -1,4 +1,5 @@
 import qrcode
-data = "https://www.twitch.tv/risadaaranha"
+data = "Insira o link aqui"
 img = qrcode.make(data)
+
 img.save("qrcode.png")
